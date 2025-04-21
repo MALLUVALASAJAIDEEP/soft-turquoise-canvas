@@ -1,6 +1,5 @@
-
 import { Button } from "./ui/button";
-import { ArrowRight, Cloud } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
@@ -24,14 +23,6 @@ export function Hero() {
           </div>
         </div>
         <div className="md:w-1/2 flex justify-center">
-          <div className="bg-white p-2 rounded-lg shadow-lg transition-transform duration-300 flex items-center justify-center">
-            <img
-              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=500&q=80"
-              alt="Laptop representing cloud computing"
-              className="aspect-square object-cover rounded w-64 h-64 md:w-72 md:h-72"
-              style={{ background: "#ccfbf1" }}
-            />
-          </div>
         </div>
       </div>
     </section>
