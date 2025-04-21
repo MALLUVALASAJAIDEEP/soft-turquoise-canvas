@@ -1,7 +1,7 @@
 
 export function SkillsSection() {
   const skills = {
-    languages: ["C++", "C"],
+    languages: ["C++", "Java"],
     frameworks: [],
     tools: ["MySQL", "Ubuntu", "Azure", "AWS"],
     softSkills: ["Problem-Solving Skills", "Team Player", "Project Management", "Adaptability", "Resource Management"]
