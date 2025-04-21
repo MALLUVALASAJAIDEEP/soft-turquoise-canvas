@@ -13,20 +13,20 @@ export function ProjectsSection() {
     {
       title: "University Campus Automation with Cloud Technology",
       date: "June 2024",
-      description: "Engineered a online automation platform for university management, utilizing cloud-based solutions. This system digitizes a wide range of administrative and academic tasks, from course enrollment to event coordination. The solution improves operational workflows, increases accessibility, and provides enhanced user experience for both students and faculty members.",
-      technologies: ["Cloud Computing", "Azure", "Web Development"]
+      description: "Engineered an online automation platform for university management, utilizing cloud-based solutions. This system digitizes and streamlines a wide range of administrative and academic tasks, increasing accessibility and operational efficiency for students and faculty via cloud technologies.",
+      technologies: ["Cloud Computing", "Azure"]
     },
     {
-      title: "Contact Management System (Python)",
+      title: "Contact Management System",
       date: "April 2023",
-      description: "Developed a contact management tool using Python, aimed at efficiently organizing and accessing contact information. The system allows for easy addition, modification, and removal of contacts, coupled with a responsive search feature. This project highlights my proficiency in Python and shows my ability to implement practical, real-world applications with data handling.",
-      technologies: ["Python", "Database Management", "UI Design"]
+      description: "Developed a tool for efficiently organizing and accessing contact information, allowing easy addition, modification, and removal of contacts. Demonstrated strong problem-solving and data management abilities.",
+      technologies: ["Python", "Database Management"]
     },
     {
-      title: "Movie Ticket Booking System Developer",
+      title: "Cloud-based Resource Monitoring",
       date: "March 2023",
-      description: "Designed and implemented a fully responsive movie ticket reservation platform using HTML and CSS. This initiative demonstrates my core expertise in front-end web development, focusing on creating visually appealing interfaces with smooth functionality.",
-      technologies: ["HTML", "CSS", "Responsive Design"]
+      description: "Implemented a platform for monitoring and visualizing cloud infrastructure resources, demonstrating the use of automation and cloud principles.",
+      technologies: ["Cloud Automation"]
     }
   ];
 

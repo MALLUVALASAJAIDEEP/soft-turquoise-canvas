@@ -9,10 +9,10 @@ export function AboutSection() {
           </h2>
           <div className="bg-turquoise-50 p-6 rounded-lg shadow-sm mb-8">
             <p className="text-gray-700 mb-4">
-              I am a passionate developer with expertise in cloud computing and web development. With solid knowledge in various programming languages and frameworks, I enjoy creating efficient solutions to complex problems.
+              I am a passionate professional with expertise in cloud computing. With solid knowledge in various programming languages and platforms, I enjoy creating efficient solutions to complex problems.
             </p>
             <p className="text-gray-700">
-              My recent focus has been on cloud technologies, particularly Azure and AWS, where I've been developing and deploying scalable applications.
+              My recent focus has been on cloud technologies, particularly Azure and AWS, where I've been developing and deploying scalable solutions.
             </p>
           </div>
           

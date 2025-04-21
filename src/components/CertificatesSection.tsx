@@ -8,7 +8,7 @@ interface Certificate {
 export function CertificatesSection() {
   const certificates: Certificate[] = [
     {
-      title: "Cloud-Powered Web App Development with AWS and PHP",
+      title: "Cloud-Powered Applications with AWS",
       provider: "Udemy",
       date: "June 2024"
     },
@@ -21,11 +21,6 @@ export function CertificatesSection() {
       title: "Dynamic Programming, Greedy Algorithms",
       provider: "Coursera",
       date: "April 2024"
-    },
-    {
-      title: "HTML (CSS) Achievement",
-      provider: "HackerRank and Great Learning",
-      date: "June 2023"
     },
     {
       title: "SQL (Intermediate) Achievement",
@@ -91,7 +86,7 @@ export function CertificatesSection() {
                 <h4 className="font-medium text-turquoise-700 mb-1">Tech Ocean Workshop</h4>
                 <div className="text-sm text-gray-500">October 2022</div>
                 <p className="mt-2 text-gray-700">
-                  1st Prize for presenting an innovative Car Renting System Application, featuring friendly Interface as well.
+                  1st Prize for presenting an innovative Cloud-powered Car Renting System Application.
                 </p>
               </div>
             </div>

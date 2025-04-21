@@ -12,7 +12,7 @@ export function Hero() {
             <span className="text-turquoise-600">Malluvalasa Jaideep</span>
           </h1>
           <p className="text-xl mb-8 text-gray-600 max-w-md">
-            Cloud Computing & Web Development Professional with expertise in Azure, AWS, and full-stack development.
+            Cloud Computing Professional with expertise in Azure and AWS platforms.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button className="bg-turquoise-600 hover:bg-turquoise-700">
@@ -23,13 +23,14 @@ export function Hero() {
             </Button>
           </div>
         </div>
-        <div className="md:w-1/2">
-          <div className="bg-white p-2 rounded-lg shadow-lg transform rotate-3 hover:rotate-0 transition-transform duration-300">
-            <div className="aspect-square bg-turquoise-100 rounded overflow-hidden">
-              <div className="w-full h-full bg-turquoise-200 flex items-center justify-center">
-                <span className="text-turquoise-700 font-bold text-7xl">MJ</span>
-              </div>
-            </div>
+        <div className="md:w-1/2 flex justify-center">
+          <div className="bg-white p-2 rounded-lg shadow-lg transition-transform duration-300">
+            <img 
+              src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=500&q=80" 
+              alt="Clouds over mountains" 
+              className="aspect-square object-cover rounded w-64 h-64 md:w-72 md:h-72"
+              style={{ background: "#ccfbf1" }}
+            />
           </div>
         </div>
       </div>

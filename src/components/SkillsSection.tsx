@@ -1,9 +1,9 @@
 
 export function SkillsSection() {
   const skills = {
-    languages: ["C++", "JavaScript", "C"],
-    frameworks: ["HTML", "CSS"],
-    tools: ["MySQL", "Ubuntu", "Azure", "AWS", "Figma", "Canva"],
+    languages: ["C++", "C"],
+    frameworks: [],
+    tools: ["MySQL", "Ubuntu", "Azure", "AWS"],
     softSkills: ["Problem-Solving Skills", "Team Player", "Project Management", "Adaptability", "Resource Management"]
   };
 
@@ -21,12 +21,14 @@ export function SkillsSection() {
             bgColor="bg-gradient-to-br from-turquoise-100 to-white"
             iconColor="text-turquoise-600"
           />
-          <SkillCard 
-            title="Frameworks" 
-            skills={skills.frameworks} 
-            bgColor="bg-gradient-to-br from-turquoise-200 to-turquoise-50"
-            iconColor="text-turquoise-700"
-          />
+          {skills.frameworks.length > 0 && (
+            <SkillCard 
+              title="Frameworks" 
+              skills={skills.frameworks} 
+              bgColor="bg-gradient-to-br from-turquoise-200 to-turquoise-50"
+              iconColor="text-turquoise-700"
+            />
+          )}
           <SkillCard 
             title="Tools & Platforms" 
             skills={skills.tools}
