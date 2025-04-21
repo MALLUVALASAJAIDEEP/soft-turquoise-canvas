@@ -1,6 +1,6 @@
 
 import { Button } from "./ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Cloud } from "lucide-react";
 
 export function Hero() {
   return (
@@ -12,7 +12,7 @@ export function Hero() {
             <span className="text-turquoise-600">Malluvalasa Jaideep</span>
           </h1>
           <p className="text-xl mb-8 text-gray-600 max-w-md">
-            Cloud Computing Professional with expertise in Azure and AWS platforms.
+            Cloud Computing Professional with extensive experience in <span className="font-semibold">Azure</span>, <span className="font-semibold">AWS</span>, <span className="font-semibold">Ubuntu</span>, and enterprise cloud solutions.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button className="bg-turquoise-600 hover:bg-turquoise-700">
@@ -24,10 +24,10 @@ export function Hero() {
           </div>
         </div>
         <div className="md:w-1/2 flex justify-center">
-          <div className="bg-white p-2 rounded-lg shadow-lg transition-transform duration-300">
-            <img 
-              src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=500&q=80" 
-              alt="Clouds over mountains" 
+          <div className="bg-white p-2 rounded-lg shadow-lg transition-transform duration-300 flex items-center justify-center">
+            <img
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=500&q=80"
+              alt="Laptop representing cloud computing"
               className="aspect-square object-cover rounded w-64 h-64 md:w-72 md:h-72"
               style={{ background: "#ccfbf1" }}
             />
